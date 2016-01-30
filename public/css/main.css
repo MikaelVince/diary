@@ -1,0 +1,72 @@
+
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+
+
+
+.container>.navbar-header, .container-fluid>.navbar-header, .container>.navbar-collapse, .container-fluid>.navbar-collapse
+{
+  margin-left: 5%;
+}
+
+.site_name
+{
+  text-align: center;
+  font-size: 100px;
+}
+.container
+{
+  width: 100%;
+  padding: 0;
+
+}
+
+.navbar-inverse .navbar-brand
+{
+  color:#5EBC3C;
+}
+
+.navbar-inverse .navbar-nav>li>a
+ {
+   color:#00FF04;
+ }
+.navbar-inverse .navbar-brand, .navbar-inverse .navbar-nav>li>a
+{
+  text-shadow: 0 -1px 0 #FFFFFF;
+
+}
+.nav .navbar-nav .navbar-right
+{
+  margin-right: 1px;
+}
+.navbar-right
+{
+  margin-right: 8%;
+}
+
+
+footer
+{
+  margin-top: 50px;
+  margin-bottom: inherit;
+}
+
+footer p{
+  color:black;
+}
+
+.jumbotron p
+{
+  color: magenta;
+}
+
+.row h2{
+  text-align: center;
+}
+
+.content
+{
+  margin-top: 350px;
+}
