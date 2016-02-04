@@ -9,17 +9,17 @@ try {
     /**
      * Read the configuration
      */
-    $config = include APP_PATH . "/app/config/config.php";
+    $config = include APP_PATH . "/app/frontend/config/config.php";
 
     /**
      * Read auto-loader
      */
-    include APP_PATH . "/app/config/loader.php";
+    include APP_PATH . "/app/frontend/config/loader.php";
 
     /**
      * Read services
      */
-    include APP_PATH . "/app/config/services.php";
+    include APP_PATH . "/app/frontend/config/services.php";
 
     /**
      * Handle the request

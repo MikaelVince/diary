@@ -14,11 +14,13 @@
     <div id="navbar" class="navbar-collapse collapse" id="bs-example-navbar-collapse-1">
       <ul class="nav navbar-nav navbar-right">
         <li><a class="menu" href="/">Accueil</a></li>
-        <li><a class="menu" href="/site">Le site</a></li>
-        <li><a class="menu" href="/sciences">Un peu de sciences</a></li>
-        <li><a class="menu" href="/recipt">Recettes</a></li>
-        <li><a class="menu" href="/calendar">Calendrier</a></li>
-        <li><a class="menu" href="/blog">Blog</a></li>
+        <li><a href="/site">Le site</a></li>
+        <li><a href="/sciences">Un peu de sciences</a></li>
+        <li><a href="/recipt">Recettes</a></li>
+        <li><a href="/calendar">Calendrier</a></li>>
+        <li><a href="/blog">Blog</a></li>
+        <li><a class="menu" href="/subscribe">S'inscrire</a></li>
+        <li><a class="menu" href="/login">Se connecter</a></li>
         <li><a class="menu" href="/contact">Contact</a></li>
       </ul>
     </div><!--/.navbar-collapse -->
