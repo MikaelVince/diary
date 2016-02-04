@@ -25,13 +25,9 @@
         <script src="js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
     </head>
     <body>
-    </div>
-        <div class="container">
-            <div> <?php echo $this->partial('layouts/header'); ?> </div>
-            <?php echo $this->getContent(); ?>
-            <div> <?php echo $this->partial('layouts/footer'); ?> </div>
-        </div>
-
+           <?php echo $this->partial('layouts/header'); ?>
+           <?php echo $this->getContent(); ?>
+           <?php echo $this->partial('layouts/footer'); ?>
         <script src="../js/jquery-1.9.1.min.js"></script>
          <script src="bootstrap.min.js"></script>
          <script src="docs.min.js"></script>
@@ -103,5 +99,11 @@
                  //responsive code end
              });
          </script>
+
+         	<!-- JAVASCRIPT INCLUSION -->
+          <?php echo $this->tag->javascriptInclude('js/angular.min.js'); ?>
+          <?php echo $this->tag->javascriptInclude('js/diaryApp.js'); ?>
+          <?php echo $this->tag->javascriptInclude('js/formApp.js'); ?>
+          <?php echo $this->tag->javascriptInclude('js/subscribeCtrl.js'); ?>
     </body>
 </html>

@@ -25,13 +25,9 @@
         <script src="js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
     </head>
     <body>
-    </div>
-        <div class="container">
-            <div> {{ partial("layouts/header")}} </div>
-            {{ content() }}
-            <div> {{ partial("layouts/footer")}} </div>
-        </div>
-
+           {{ partial("layouts/header")}}
+           {{ content() }}
+           {{ partial("layouts/footer")}}
         <script src="../js/jquery-1.9.1.min.js"></script>
          <script src="bootstrap.min.js"></script>
          <script src="docs.min.js"></script>
@@ -103,5 +99,11 @@
                  //responsive code end
              });
          </script>
+
+         	<!-- JAVASCRIPT INCLUSION -->
+          {{ javascript_include('js/angular.min.js') }}
+          {{ javascript_include('js/diaryApp.js') }}
+          {{ javascript_include('js/formApp.js') }}
+          {{ javascript_include('js/subscribeCtrl.js') }}
     </body>
 </html>

@@ -9,7 +9,7 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <a class="navbar-brand" href="/"><img src="../img/plant.png"></img> <p class="site_logo">Life Respect</p></a>
+      <a class="navbar-brand" href="/"><img src="../img/plant.png"><p class="site_logo">Life Respect</p></a>
     </div>
     <div id="navbar" class="navbar-collapse collapse" id="bs-example-navbar-collapse-1">
       <ul class="nav navbar-nav navbar-right">

@@ -173,3 +173,27 @@ footer p{
 .jssora21r:hover { background-position: -183px -33px; }
 .jssora21l.jssora21ldn { background-position: -243px -33px; }
 .jssora21r.jssora21rdn { background-position: -303px -33px; }
+
+/*Formulaire création de compte*/
+
+.subForm_title
+{
+  text-align: center;
+  font-family: "Comic Sans MS", cursive, sans-serif;
+  text-shadow:#969696 1px 3px 0, #aba8a8 1px 13px 5px;
+}
+
+.sub_form
+{
+  margin-top: 20px;
+  border: 2px solid rgba(52, 215, 5, 0.62);
+  border-radius: 20px;
+  padding: 10px;
+  background-color: rgba(52, 215, 5, 0.62);
+}
+
+.form-group
+{
+  font-family: "Comic Sans MS", cursive, sans-serif;
+  text-shadow:#969696 1px 3px 0, #aba8a8 1px 13px 5px;
+}
