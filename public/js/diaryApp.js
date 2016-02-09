@@ -1,4 +1,4 @@
-var diaryApp = angular.module('diaryApp', ['formSubmit','dndLists','angularFileUpload']);
+var diaryApp = angular.module('diaryApp', ['formSubmit']);
 var domain = 'http://www.diary.dev';
 
 diaryApp.factory('successRedirect', function(){

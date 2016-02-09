@@ -13,7 +13,8 @@ class SubscribeController extends ControllerBase
 
           $user = new \Diary\Frontend\Models\FormUsers();
           $data = $this->request->getPost();
-
+          var_dump($data);
+          die();
           $dateCrea = date('Y-m-d H:i:s');
           $user->date_crea = $dateCrea;
           $user->name = $data['name'];
